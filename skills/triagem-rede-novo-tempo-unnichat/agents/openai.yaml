@@ -1,0 +1,14 @@
+interface:
+  display_name: Triagem da fila Rede Novo Tempo no UnniChat
+  short_description: Revise e encerre casos elegíveis da Rede Novo Tempo
+  default_prompt: Use $triagem-rede-novo-tempo-unnichat para avaliar as conversas
+    abertas da fila Rede Novo Tempo de Comunicação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

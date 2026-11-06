@@ -1,0 +1,13 @@
+interface:
+  display_name: Triagem da fila da IA no UnniChat
+  short_description: Revise a fila, encaminhe cadastros e arquive casos elegíveis
+  default_prompt: Use $triagem-unnichat para revisar a fila IA • Novo Tempo.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

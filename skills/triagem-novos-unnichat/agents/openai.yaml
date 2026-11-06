@@ -1,0 +1,13 @@
+interface:
+  display_name: Triagem da fila Novos no UnniChat
+  short_description: Revise toda a fila Novos do UnniChat
+  default_prompt: Execute a triagem de toda a fila Novos no UnniChat.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
